@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<link href="Style_NathanielChua.css" rel="stylesheet">
+<style>
+.button {
+  border-radius: 4px;
+  background-color: #4A7856;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 13px;
+  width: 170px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+	
+
+	
+<body>
+	
+<nav>
+<ul>
+<li><a href="ContactUs_NathanielChua.html">Contact Us</a></li>
+<li><a href="Products_NathanielChua.html">Products</a></li>
+<li><a href="AboutUs_NathanielChua.html">About Us</a></li>
+<li><a href="Index_NathanielChua.html">Home</a></li>
+<li1><a><img src="Images/Horizontal Vejløft Logo.png" width="200" height="60" alt="Vejløft"/></a></li1>
+</ul>
+</nav>
+	
+<header>
+<img src="Images/Banner.jpg" alt="Banner" class="headerimage"/>
+</header>
+
+<section>
+  <h1><strong style="font-size: 30px;">Most Popular</strong></h1>
+  <table>
+  <tbody>
+    <tr>
+      <td style="padding-left: 100px;"><img src="Images/EBike2.jpg" alt="Ebike2" id="myImage"/></td>
+		
+		<td style="padding-left: 30px;">	
+		<h2 style="padding-left: 5px;">Trailblazer</h2>
+			
+	      <p style="padding-right: 100px; padding-left: 5px;">The Trailblazer is a rugged mountain bike built to conquer tough trails. Featuring a sturdy frame, advanced suspension, and high-grip tires, it ensures a smooth, controlled ride through the most challenging terrains.</p>
+			
+		  <a href="Products_NathanielChua.html">
+		  <button class="button"><span>Learn More </span></button>
+	    </a>		</td>
+    </tr>
+  </tbody>
+  </table>
+</section>
+
+<section class="catalog">
+        <h2>Our Becycle</h2>
+        <div class="catalog-items">
+            <div class="container"><a href="Products_NathanielChua.html"><img src="Images/Bike2.jpg" alt="Bike2" class="image"/></a>
+			<div class="content">Offroad</div>
+		    </div>
+            
+		    <div class="container"><a href="Products_NathanielChua.html"><img src="Images/EBike3.jpg" alt="EBike3" class="image"/></a>
+			<div class="content">Electric</div>
+		    </div>
+			
+            <div class="container"><a href="Products_NathanielChua.html"><img src="Images/Bike3.jpg" alt="Bike3" class="image"/></a>
+				<div class="content">City</div>
+			</div>
+        </div>
+    </section>
+	
+<footer class="alignCenter">
+	<p><strong><a href="Index_NathanielChua.html">Home</a> | <a href="AboutUs_NathanielChua.html">About Us</a> | <a href="Products_NathanielChua.html">Products</a> | <a href="ContactUs_NathanielChua.html">Contact Us</a></strong></p>
+
+	<p>Done by Nathaniel Chua. &copy; 2018 Copyright version<br>Call us at <span id="numcolor">+45-35869847</span><br>Email us at <a href="mailto:contactus@vejløft.dk" id="emailcolor">contactus@vejløft.dk</a></p>
+</footer>
+	
+</body>
+</html>

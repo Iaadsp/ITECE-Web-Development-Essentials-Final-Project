@@ -1,3 +1,3 @@
-# Test
-Testing to see if website works. I don't own any of the photos nor is the brand real.
-This is just my school project
+# ITECE-Web-Development-Essentials-Final-Project
+This is my Institute of Technical Education Collage East Web Development Essentials class Final Project.
+***I do not own any of the photos, all photos were found via copyright free websites however I am unable to find back the original links***
